@@ -9,9 +9,9 @@ module.exports = {
 		open: true,
 		compress: true
   },
-  entry: "./src/index.ts",
+  entry: "./src/rxjs.ts",
   output: {
-    filename: "index.js"
+    filename: "rxjs.js"
   },
   resolve: {
     extensions: [".ts", ".js", ".json"]
